@@ -151,6 +151,6 @@ export const projects: ProjectType[] = [
         id: 6,
         title: 'My Resume',
         link: 'https://github.com/pejman-hkh/resume',
-        description: 'This resume – built with TypeScript and modular components',
+        description: 'This resume built with TypeScript and modular components',
     },
 ];
