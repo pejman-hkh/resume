@@ -104,17 +104,17 @@ export const skills: SkillType[] = [
         percent: 90,
     },
     {
-        id: 5,
+        id: 6,
         title: 'C Programming',
         percent: 90,
     },
     {
-        id: 6,
+        id: 7,
         title: 'C++',
         percent: 70,
     },
     {
-        id: 5,
+        id: 8,
         title: 'Docker & DevOps',
         percent: 90,
     },
