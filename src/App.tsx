@@ -39,8 +39,17 @@ export default function App() {
 
       <div className="w-full max-w-7xl mx-auto px-4 mt-44 sm:mt-10">
         <div className="flex flex-col lg:flex-row gap-6">
-          <div className="w-full bg-white rounded-2xl shadow-md p-6 sm:p-8">
-            <h2 className="text-2xl font-bold mb-6">Resume</h2>
+          <div className="w-full bg-white rounded-2xl shadow-md p-6 sm:p-8 mb-8">
+            <h1 className="text-2xl font-bold mb-6">Resume</h1>
+
+            <section className="mb-8">
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                📝‌ About me
+              </h3>
+              <p>
+                {user.about}
+              </p>
+            </section>
             <Education items={educations} />
             <Experience items={experiences} />
             <Skill items={skills} />
