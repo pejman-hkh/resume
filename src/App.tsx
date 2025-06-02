@@ -22,6 +22,9 @@ export default function App() {
           <div className="flex-1 text-center md:text-left mt-4 md:mt-0">
             <h2 className="text-xl font-bold">{user.firstName} {user.lastName}</h2>
             <p className="text-sm text-gray-500">{user.description}</p>
+            <p className="text-sm text-gray-500">
+              <a href={"https://github.com/" + user.github}>https://github.com/{user.github}</a><br />
+              </p>
             <div className="flex justify-center md:justify-start space-x-4 mt-2 text-blue-500 text-lg">
               <i className="fab fa-facebook"></i>
               <i className="fab fa-twitter"></i>
