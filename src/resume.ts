@@ -154,7 +154,7 @@ export const projects: ProjectType[] = [
         description: 'This resume built with TypeScript and modular components',
     },
     {
-        id: 6,
+        id: 7,
         title: 'AyaFlix.com',
         link: 'https://www.ayaflix.com',
         description: `Developed Ayaflix, a movie streaming website built with Next.js.  
