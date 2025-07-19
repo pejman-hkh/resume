@@ -153,4 +153,12 @@ export const projects: ProjectType[] = [
         link: 'https://github.com/pejman-hkh/resume',
         description: 'This resume built with TypeScript and modular components',
     },
+    {
+        id: 6,
+        title: 'AyaFlix.com',
+        link: 'https://www.ayaflix.com',
+        description: `Developed Ayaflix, a movie streaming website built with Next.js.  
+Implemented a fully custom video player with advanced playback controls, entirely self-developed.  
+Designed the user interface with a focus on simplicity, mobile compatibility, and a smooth user experience.`,
+    },
 ];
