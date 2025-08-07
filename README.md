@@ -165,5 +165,12 @@ export const projects: ProjectType[] = [
 Implemented a fully custom video player with advanced playback controls, entirely self-developed.  
 Designed the user interface with a focus on simplicity, mobile compatibility, and a smooth user experience.`,
     },
+    {
+        id: 8,
+        title: 'React Player CC',
+        link: 'https://github.com/pejman-hkh/react-player-cc',
+        description: `
+A lightweight and flexible video player built with TypeScript and React, featuring fully customizable controls and native support for SRT subtitles. Ideal for seamless integration and UI customization.`,
+    },
 ];
 ```
